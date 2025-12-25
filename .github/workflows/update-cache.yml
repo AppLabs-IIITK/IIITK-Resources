@@ -1,0 +1,32 @@
+name: Update Firestore Cache
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  refresh-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Refresh Firestore tree cache
+        run: |
+          response=$(curl -X POST \
+            https://asia-south1-event-manager-dfd26.cloudfunctions.net/api/github/refresh \
+            -H "Authorization: Bearer ${{ secrets.CACHE_REFRESH_TOKEN }}" \
+            -w "\n%{http_code}" \
+            -s)
+
+          http_code=$(echo "$response" | tail -n1)
+          body=$(echo "$response" | head -n-1)
+
+          echo "Response: $body"
+          echo "HTTP Code: $http_code"
+
+          if [ "$http_code" != "200" ]; then
+            echo "❌ Failed to refresh cache"
+            exit 1
+          fi
+
+          echo "✅ Cache refreshed successfully"

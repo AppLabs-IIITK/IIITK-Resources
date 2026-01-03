@@ -1,72 +1,330 @@
 [
-    {
-        "id": "fac_cse_01",
-        "name": "Dr. Arun Kumar",
-        "designation": "Assistant Professor",
-        "department": "CSE",
-        "cabin_number": "AB1-204",
-        "email": "arun@iiitkottayam.ac.in",
-        "image_url": "https://raw.githubusercontent.com/your-org/iiitk-resources/main/data/images/arun.jpg",
-        "is_hod": false
-    },
-    {
-        "id": "fac_cse_02",
-        "name": "Dr. Priya Sharma",
-        "designation": "Associate Professor",
-        "department": "CSE",
-        "cabin_number": "AB1-205",
-        "email": "priya@iiitkottayam.ac.in",
-        "image_url": "https://raw.githubusercontent.com/your-org/iiitk-resources/main/data/images/priya.jpg",
-        "is_hod": true
-    },
-    {
-        "id": "fac_cse_03",
-        "name": "Dr. Rajesh Menon",
-        "designation": "Assistant Professor",
-        "department": "CSE",
-        "cabin_number": "AB1-206",
-        "email": "rajesh@iiitkottayam.ac.in",
-        "image_url": "https://raw.githubusercontent.com/your-org/iiitk-resources/main/data/images/rajesh.jpg",
-        "is_hod": false
-    },
-    {
-        "id": "fac_ece_01",
-        "name": "Dr. Amit Verma",
-        "designation": "Associate Professor",
-        "department": "ECE",
-        "cabin_number": "AB2-101",
-        "email": "amit@iiitkottayam.ac.in",
-        "image_url": "https://raw.githubusercontent.com/your-org/iiitk-resources/main/data/images/amit.jpg",
-        "is_hod": true
-    },
-    {
-        "id": "fac_ece_02",
-        "name": "Dr. Sneha Pillai",
-        "designation": "Assistant Professor",
-        "department": "ECE",
-        "cabin_number": "AB2-102",
-        "email": "sneha@iiitkottayam.ac.in",
-        "image_url": "https://raw.githubusercontent.com/your-org/iiitk-resources/main/data/images/sneha.jpg",
-        "is_hod": false
-    },
-    {
-        "id": "fac_aids_01",
-        "name": "Dr. Vikram Singh",
-        "designation": "Associate Professor",
-        "department": "AIDS",
-        "cabin_number": "AB3-101",
-        "email": "vikram@iiitkottayam.ac.in",
-        "image_url": "https://raw.githubusercontent.com/your-org/iiitk-resources/main/data/images/vikram.jpg",
-        "is_hod": true
-    },
-    {
-        "id": "fac_math_01",
-        "name": "Dr. Lakshmi Nair",
-        "designation": "Assistant Professor",
-        "department": "Mathematics",
-        "cabin_number": "AB1-301",
-        "email": "lakshmi@iiitkottayam.ac.in",
-        "image_url": "https://raw.githubusercontent.com/your-org/iiitk-resources/main/data/images/lakshmi.jpg",
-        "is_hod": false
-    }
+  {
+    "name": "Prof Ashok S",
+    "room": "AC 307"
+  },
+  {
+    "name": "Dr. Shajulin Benedict",
+    "room": ""
+  },
+  {
+    "name": "Dr. Ebin Deni Raj",
+    "room": "AC 308 / AA 117 "
+  },
+  {
+    "name": "Dr. Bakkyaraj T",
+    "room": "AB 212 / AA 118"
+  },
+  {
+    "name": "Dr. Jayakrushna Sahoo",
+    "room": "AA 108 / AA123"
+  },
+  {
+    "name": "Dr. Kala S",
+    "room": "AC 314"
+  },
+  {
+    "name": "Dr. Panchami V",
+    "room": "AB 213 / AB 218"
+  },
+  {
+    "name": "Dr. P. Victer Paul",
+    "room": "AC 312"
+  },
+  {
+    "name": "Dr Divya Sindhu Lekha",
+    "room": "BD 417 / AA 116"
+  },
+  {
+    "name": "Dr. J. V. Bibal Benifa",
+    "room": "BD 416 / AB 216"
+  },
+  {
+    "name": "Dr. Arun Cyril Jose",
+    "room": "AA 122"
+  },
+  {
+    "name": "Dr. Manjith B.C.",
+    "room": "AA 106"
+  },
+  {
+    "name": "Dr. Koppala Guravaiah",
+    "room": "AA 105"
+  },
+  {
+    "name": "Dr. Dhanyamol M V",
+    "room": "BC 316 / AA 119"
+  },
+  {
+    "name": "Dr. Christina Terese Joseph",
+    "room": "AC 318"
+  },
+  {
+    "name": "Dr. Rubell Marion Lincy G",
+    "room": "BC 317 / AB 219"
+  },
+  {
+    "name": "Dr. Ragesh G K",
+    "room": "CAB 103 B"
+  },
+  {
+    "name": "Dr. Amit Kumar Roy",
+    "room": "BD 407"
+  },
+  {
+    "name": "Dr.John Paul Martin",
+    "room": "BC 308"
+  },
+  {
+    "name": "Dr. Cinu C Kiliroor",
+    "room": "AB 222"
+  },
+  {
+    "name": "Dr. Vengadeswaran S",
+    "room": "BB 210"
+  },
+  {
+    "name": "Dr. Manu Madhavan",
+    "room": "BC 307"
+  },
+  {
+    "name": "Dr. Nandini J. Warrier",
+    "room": "BC 312"
+  },
+  {
+    "name": "Dr. Selvi C",
+    "room": "BC 309"
+  },
+  {
+    "name": "Dr. Goutam Mali",
+    "room": "BB 209"
+  },
+  {
+    "name": "Dr. Sivaiah Bellamkonda",
+    "room": "AA 104"
+  },
+  {
+    "name": "Dr. Suchithra M S",
+    "room": "AC 317"
+  },
+  {
+    "name": "Dr. Ananth A",
+    "room": "AB 208 / AC 313"
+  },
+  {
+    "name": "Dr. Santhos Kumar A.",
+    "room": "BD 409"
+  },
+  {
+    "name": "Dr. A Balu",
+    "room": "BB 207"
+  },
+  {
+    "name": "Dr. Lidiya Lilly Thampi",
+    "room": "AB 207"
+  },
+  {
+    "name": "Dr. Lavanya Settipalli",
+    "room": "AB 204"
+  },
+  {
+    "name": "Dr. Susheel Kumar Joshi",
+    "room": "BC 310"
+  },
+  {
+    "name": "Dr. E. Silambarasan",
+    "room": "BB 211"
+  },
+  {
+    "name": "Dr. Mathew.C.D",
+    "room": "CAB 102"
+  },
+  {
+    "name": "Dr. Gayathri G.R.",
+    "room": "AB 209 E"
+  },
+  {
+    "name": "Dr. Josit Mariya",
+    "room": "AC 304 B"
+  },
+  {
+    "name": "Dr. Della Thomas",
+    "room": "BC 313"
+  },
+  {
+    "name": "Dr. Venkatesh S",
+    "room": "BB 212"
+  },
+  {
+    "name": "Dr. Rajesh G",
+    "room": "BB 208"
+  },
+  {
+    "name": "Dr. Minu A Pillai",
+    "room": "AC 305 E"
+  },
+  {
+    "name": " Dr. Abin Oommen Philip",
+    "room": "AC 304 D"
+  },
+  {
+    "name": "Dr.Priyadharshini S",
+    "room": "AC 305 D"
+  },
+  {
+    "name": "Dr. Athira B",
+    "room": "BB 213"
+  },
+  {
+    "name": "Dr. Debarati Ganguly",
+    "room": "AA 112 A"
+  },
+  {
+    "name": "Dr. Lakshmi N S",
+    "room": "AB 223"
+  },
+  {
+    "name": "Dr. Chakradhar Padamutham",
+    "room": "BD 411"
+  },
+  {
+    "name": "Dr. Emy Mariam George",
+    "room": "AC 305 A"
+  },
+  {
+    "name": "Dr. Sreeja M U",
+    "room": "AB 206"
+  },
+  {
+    "name": "Dr. Kanchan Lata Kashyap",
+    "room": "BD 410"
+  },
+  {
+    "name": "Dr. Deepak Jose",
+    "room": "AB 209 B"
+  },
+  {
+    "name": " Dr. Vineeth Palliyembil",
+    "room": "AB 209 C"
+  },
+  {
+    "name": "Dr. Milind Thomas Themalil",
+    "room": "BC 311"
+  },
+  {
+    "name": "Dr. Asha Sebastian",
+    "room": "AB 217"
+  },
+  {
+    "name": "  Dr. Murugan D",
+    "room": "AC 304 C"
+  },
+  {
+    "name": " Dr. Suriyapriya K",
+    "room": "AC 311"
+  },
+  {
+    "name": "Dr. Riyasudheen T K",
+    "room": "BD 412"
+  },
+  {
+    "name": "Dr. Binu M",
+    "room": "AC 304 B"
+  },
+  {
+    "name": "Dr.Jobin Jose",
+    "room": "AB 209 G"
+  },
+  {
+    "name": "Dr. Balasubramanian P",
+    "room": "BD 408"
+  },
+  {
+    "name": "Dr. Dhakshayani J",
+    "room": "AB 209 F"
+  },
+  {
+    "name": "Dr.S.Jai Ganesh",
+    "room": "AC 304 A"
+  },
+  {
+    "name": "Dr. Krishnendhu S P",
+    "room": "AA 107"
+  },
+  {
+    "name": "Dr. Jeena Thomas",
+    "room": "BA 101 C"
+  },
+  {
+    "name": "Dr. Fasila K A",
+    "room": "BA 101 A"
+  },
+  {
+    "name": "Dr. Renu Mary Daniel",
+    "room": "BA 101 B"
+  },
+  {
+    "name": "Dr. Sara Renjit",
+    "room": "CAB 202 F"
+  },
+  {
+    "name": "Dr. Sushitha Susan Joseph",
+    "room": "CAB 202 E"
+  },
+  {
+    "name": "Dr. Sreelakshmy I J",
+    "room": "CAB 202 G"
+  },
+  {
+    "name": "Ms. Mahima Mary Mathews",
+    "room": "AB 218"
+  },
+  {
+    "name": "Dr. R Tharaniya Sairaj",
+    "room": "AC 301 D"
+  },
+  {
+    "name": "Dr. Anu Maria Sebastian",
+    "room": " AB 209 C"
+  },
+  {
+    "name": "Mr. Anandhu Mohan",
+    "room": " AB 209 A"
+  },
+  {
+    "name": "Dr. Rosebell Paul",
+    "room": " AC 305 C"
+  },
+  {
+    "name": "Dr. Nayana P G",
+    "room": " BA 101 D"
+  },
+  {
+    "name": "Dr. Reetha Thomas",
+    "room": " BA 100 B"
+  },
+  {
+    "name": "Dr. Gayathri Varma",
+    "room": " AC 301 E"
+  },
+  {
+    "name": "Mr. Ansith S",
+    "room": " CAB 201 (Academics Office)"
+  },
+  {
+    "name": "Dr. Jisha Mariyam John",
+    "room": "CAB 201 (Academics Office)"
+  },
+  {
+    "name": "Dr. Syamala S",
+    "room": "CAB 201 (Academics Office)"
+  },
+  {
+    "name": "Dr. JALAJA M J",
+    "room": "CAB 103 D"
+  },
+  {
+    "name": "Dr. Leena Mary",
+    "room": "CAB 103 C"
+  }
 ]
